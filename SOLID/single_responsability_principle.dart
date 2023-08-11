@@ -1,0 +1,2 @@
+/* A class should do only one thing and therefore
+it should have only one reason to change. */

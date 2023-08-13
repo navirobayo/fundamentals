@@ -3,8 +3,6 @@ it should have only one reason to change. */
 
 // Example.
 
-void main() {}
-
 class Villain {
   String name;
   String superPower;
@@ -26,12 +24,6 @@ class VillainAppearances {
 
   VillainAppearances(this.villain, this.numberOfAppearancesInComics,
       this.numberOfAppearancesInMovies, this.numberOfAppearancesInSeries);
-}
-
-class EvilCalculator {
-  int calculateEvilness(villain villain) {
-    return villain.numberOfSkills * villain.ageInYears;
-  }
 }
 
 class villainOneInformation {
